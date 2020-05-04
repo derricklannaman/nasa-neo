@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Neo />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import Neo from '@/views/T1_BindingAttributes.vue';
+// import Neo from '@/views/T2_VOnce.vue';
+// import Neo from '@/views/T3_VHtml.vue';
+// import Neo from '@/views/T4_Events.vue';
+// import Neo from '@/views/T5_TwowayBinding.vue';
+import Neo from '@/views/T6_ComputedProperty.vue';
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Neo
   }
 }
 </script>
